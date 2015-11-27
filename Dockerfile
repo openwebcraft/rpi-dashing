@@ -1,5 +1,5 @@
-FROM debian:jessie
-#FROM hypriot/rpi-ruby
+FROM hypriot/rpi-ruby
+#FROM debian:jessie
 
 MAINTAINER Matthias Geisler "matthias@openwebcraft.com"
 

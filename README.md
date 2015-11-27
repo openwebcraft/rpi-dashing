@@ -19,9 +19,3 @@ Raspberry Pi compatible Docker Image with a minimal [Dashing](http://dashing.io/
     $ docker run -i -t -p 3030:3030 -v `pwd`/dashboard:/usr/src/app:rw matthiasg/rpi-dashing bash
     
     $ dashing new dashboard
-
-## Resources
-
-- [viaplay/dashing-docker](https://github.com/viaplay/dashing-docker) - Automated build and run of Dashing with Docker
-
-https://github.com/smar000/openhab-dashboard
