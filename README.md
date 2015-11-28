@@ -12,7 +12,7 @@ Raspberry Pi compatible Docker Image with a minimal [Dashing](http://dashing.io/
 
 ## Use your own dashport project
 
-    $ docker run -i -d -p 3030:3030 -v `pwd`/dashboard:/usr/src/app:rw matthiasg/rpi-dashing
+    $ docker run -i -d -p 3030:3030 -v `pwd`/../dashpi:/usr/src/app:rw matthiasg/rpi-dashing
     
 ## Start the container and keep control, e.g. when using the docker image for development
 
