@@ -2,6 +2,12 @@ FROM hypriot/rpi-ruby
 FROM hypriot/rpi-node
 FROM hypriot/rpi-python
 
+#FROM debian:jessie
+#RUN apt-get update; apt-get -y upgrade
+#RUN apt-get install -y ruby python curl
+#RUN curl -sL https://deb.nodesource.com/setup_5.x | bash -
+#RUN apt-get install -y nodejs
+
 MAINTAINER Matthias Geisler "matthias@openwebcraft.com"
 
 # Install prerequisites
