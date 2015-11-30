@@ -2,8 +2,7 @@ FROM hypriot/rpi-ruby
 FROM hypriot/rpi-python
 
 #FROM debian:jessie
-#RUN apt-get update; apt-get -y upgrade
-#RUN apt-get install -y ruby python curl
+#RUN apt-get install -y ruby python
 
 MAINTAINER Matthias Geisler "matthias@openwebcraft.com"
 
