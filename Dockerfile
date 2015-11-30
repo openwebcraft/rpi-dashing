@@ -1,9 +1,8 @@
 FROM hypriot/rpi-ruby:2.2.2
 FROM hypriot/rpi-python
 
-#FROM debian:jessie
-#RUN apt-get install -y ruby python
-#RUN gem install bundler
+#FROM ruby
+#FROM python
 
 MAINTAINER Matthias Geisler "matthias@openwebcraft.com"
 
@@ -14,9 +13,6 @@ RUN apt-get install -y build-essential curl
 # Install Node.js
 RUN curl -sL https://deb.nodesource.com/setup_5.x | bash -
 RUN apt-get install -y nodejs
-
-# Install Dashing
-RUN gem install dashing
 
 # Install Dashing project
 RUN mkdir -p /usr/src/app

@@ -18,10 +18,6 @@ Raspberry Pi compatible Docker Image with a minimal [Dashing](http://dashing.io/
 
     $ docker run -i -t -p 3030:3030 -v `pwd`/:/usr/src/app:rw matthiasg/rpi-dashing bash
         
-In order to start the server:
+E.g. in order to start the server:
         
     $ dashing start
-    
- ... or:
-    
-    $ dashing new dashboard
