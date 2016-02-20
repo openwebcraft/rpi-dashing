@@ -1,4 +1,4 @@
-# rpi-docker-dashing
+# rpi-dashing
 
 Raspberry Pi compatible Docker Image with a minimal [Dashing](http://dashing.io/) sample dashboard. 
 
